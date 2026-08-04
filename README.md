@@ -6,7 +6,7 @@ Este wrapper soluciona el problema de inicio en Windows 10/11 donde GTA III, GTA
 
 - "Cannot find 1920x1080x32 video mode"
 - El juego queda ejecutándose en segundo plano sin abrir la ventana
-- No abre completamente
+- El juego no abre
 
 El programa fuerza temporalmente el modo 640x480 durante el primer inicio y luego restaura la configuración normal.
 
@@ -57,5 +57,10 @@ Documentos\GTA Wrapper Fix
 gta_sa_real.exe → gta_sa.exe
 gta-vc_real.exe → gta-vc.exe
 gta3_real.exe → gta3.exe
+
+-Si dejo de funcionar:
+
+Anda a Documentos\GTA Wrapper Fix
+borra los archivos y volve a intentar
 
 Compatible con instalaciones modificadas que usan SilentPatch, CLEO, ModLoader y otros mods.
