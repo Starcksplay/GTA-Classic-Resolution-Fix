@@ -17,10 +17,9 @@ The program temporarily forces the game to start in 640x480 resolution during th
 ## Installation
 
 1. Download the latest release from the [Releases page](https://github.com/Starcksplay/GTA-Classic-Resolution-Fix/releases).
-2. Close the game if it is running.
-3. Open the folder where your GTA game is installed.
-4. Make a backup copy of the original executable.
-5. Rename the original file:
+2. Open the folder where your GTA game is installed.
+3. Make a backup copy of the original executable.
+4. Rename the original file:
 
 ### GTA San Andreas:
 
