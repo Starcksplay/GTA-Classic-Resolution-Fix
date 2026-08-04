@@ -1,66 +1,88 @@
-GTA Classic Resolution Fix Wrapper
+# GTA Classic Resolution Fix Wrapper
 
-¿Qué hace?
+## What does it do?
 
-Este wrapper soluciona el problema de inicio en Windows 10/11 donde GTA III, GTA Vice City y GTA San Andreas muestran errores como:
+This wrapper fixes the startup issues on Windows 10/11 where GTA III, GTA Vice City, and GTA San Andreas show errors such as:
 
-- "Cannot find 1920x1080x32 video mode"
-- El juego queda ejecutándose en segundo plano sin abrir la ventana
-- El juego no abre
+* "Cannot find 1920x1080x32 video mode"
+* The game stays running in the background without opening a window
+* The game does not launch
 
-El programa fuerza temporalmente el modo 640x480 durante el primer inicio y luego restaura la configuración normal.
+The program temporarily forces the game to start in 640x480 resolution during the first launch and then restores the normal configuration.
 
-Instalación
+---
 
-1. Cierra el juego si está abierto.
+## Installation
 
-2. Abre la carpeta donde está instalado tu GTA.
+1. Close the game if it is running.
+2. Open the folder where your GTA game is installed.
+3. Make a backup copy of the original executable.
+4. Rename the original file:
 
-3. Haz una copia de seguridad del ejecutable original.
+### GTA San Andreas:
 
-4. Cambia el nombre del archivo original:
-
-GTA San Andreas:
-
+```
 gta_sa.exe → gta_sa_real.exe
+```
 
-GTA Vice City:
+### GTA Vice City:
 
+```
 gta-vc.exe → gta-vc_real.exe
+```
 
-GTA III:
+### GTA III:
 
+```
 gta3.exe → gta3_real.exe
+```
 
-(o como este escrito en tu carpeta)
+(or whatever the executable is named in your game folder)
 
-5. Copia el archivo del wrapper en esa misma carpeta.
+5. Copy the wrapper file into the same folder.
 
-El wrapper debe tener el nombre original del juego:
+The wrapper must have the original game executable name:
 
+```
 gta_sa.exe
 gta-vc.exe
 gta3.exe
+```
 
-6. Inicia el juego normalmente desde tu launcher habitual.
+6. Launch the game normally from your usual launcher.
 
-Notas
+---
 
-- El archivo original del juego no se modifica.
-- El wrapper necesita estar en la misma carpeta que el ejecutable real.
-- La configuración de primera ejecución se guarda en:
+## Notes
 
-Documentos\GTA Wrapper Fix
+* The original game executable is not modified.
+* The wrapper must be placed in the same folder as the real executable.
+* The first-launch configuration is saved in:
 
-- Si quieres eliminar el fix, borra el wrapper y vuelve a cambiar:
+```
+Documents\GTA Wrapper Fix
+```
 
+* If you want to remove the fix, delete the wrapper and rename the files back:
+
+```
 gta_sa_real.exe → gta_sa.exe
 gta-vc_real.exe → gta-vc.exe
 gta3_real.exe → gta3.exe
+```
 
--Si dejo de funcionar:
+---
 
-Anda a Documentos\GTA Wrapper Fix
-borra los archivos y volve a intentar
+## If it stops working:
 
-Compatible con instalaciones modificadas que usan SilentPatch, CLEO, ModLoader y otros mods.
+Go to:
+
+```
+Documents\GTA Wrapper Fix
+```
+
+Delete the files inside and try again.
+
+---
+
+Compatible with modified installations using SilentPatch, CLEO, ModLoader, and other mods.
