@@ -1,3 +1,5 @@
+🎮 GTA Classic Resolution Fix Wrapper
+
 # GTA Classic Resolution Fix Wrapper
 
 ## What does it do?
